@@ -1,0 +1,14 @@
+{
+  "name": "profile-update",
+  "version": "1.0.0",
+  "description": "An application to help update user profile to social media platforms",
+  "main": "index.js",
+  "scripts": {
+    "compile-sass": "node-sass assets/sass/main.scss assets/css/style.css -w"
+  },
+  "author": "frank",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}

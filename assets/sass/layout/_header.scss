@@ -1,0 +1,31 @@
+.header {
+    height: 100vh;
+    padding-top: 4rem;
+    background-image: linear-gradient(to left, rgba($color-black, .8), rgba($color-black, .8)), url('../images/banner.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    &__text-box {
+        color: $color-white;
+    }
+}
+
+.heading-main {
+    margin-bottom: 4.5rem;
+    padding: 0rem;
+    &__header {
+        display: block;
+        color: $color-white;
+        font-size: 3rem;
+        font-weight: bold;
+        line-height: 6rem;
+        text-transform: capitalize;
+    }
+    &__sub {
+        display: block;
+        color: rgba($color-white, .7);
+        font-size: 1.3rem;
+        font-weight: 500;
+        line-height: 2.5rem;
+    }
+}

@@ -1,0 +1,149 @@
+.btn {
+    &,
+    &:link,
+    &:visited {
+        padding: 1rem 2.8rem;
+        font-size: 1.4rem;
+        text-decoration: none;
+    }
+    &:focus,
+    &:hover {
+        text-decoration: none;
+    }
+    &__red {
+        &,
+        &:focus,
+        &:hover {
+            background-color: $color-red;
+            color: $color-white;
+            border: .15rem solid $color-red;
+            text-transform: capitalize;
+            text-decoration: none;
+        }
+    }
+    &__gold {
+        &,
+        &:focus,
+        &:hover {
+            background-color: $color-gold;
+            color: $color-white;
+            border: .15rem solid $color-gold;
+            text-transform: capitalize;
+            text-decoration: none;
+        }
+    }
+    &__gold--square {
+        &,
+        &:focus,
+        &:hover {
+            background-color: $color-gold;
+            color: $color-white;
+            border: .15rem solid $color-gold;
+            border-radius: unset;
+            text-transform: capitalize;
+            text-decoration: none;
+        }
+    }
+    &__red--square {
+        &,
+        &:focus,
+        &:hover {
+            background-color: $color-red;
+            color: $color-white;
+            border: .15rem solid $color-red;
+            border-radius: unset;
+            text-transform: capitalize;
+            text-decoration: none;
+        }
+    }
+    &__bordered--white {
+        &,
+        &:focus,
+        &:hover {
+            background-color: transparent;
+            color: $color-white;
+            border: .15rem solid $color-white;
+            text-decoration: none;
+        }
+    }
+    &__bordered-curved--yellow {
+        &,
+        &:focus,
+        &:hover {
+            background-color: transparent;
+            color: $color-black;
+            border: .13rem solid $color-yellow;
+            border-radius: 5rem;
+            padding: 1rem 2rem !important;
+            text-decoration: none;
+        }
+    }
+    &__bordered-square-curved--yellow {
+        &,
+        &:focus,
+        &:hover {
+            background-color: transparent;
+            color: $color-white;
+            padding: 1rem 2rem !important;
+            border: .13rem solid $color-yellow;
+            border-radius: 5rem 5rem 0rem 5rem;
+            text-decoration: none;
+        }
+    }
+    &__curved--yellow {
+        &,
+        &:focus,
+        &:hover {
+            background-color: $color-yellow;
+            color: $color-black;
+            border: none !important;
+            border-radius: 5rem;
+            padding: 1rem 2rem !important;
+            text-decoration: none;
+        }
+    }
+    &__squared--yellow {
+        &,
+        &:focus,
+        &:hover {
+            background-color: $color-yellow;
+            border: none !important;
+            border-radius: .5rem;
+            padding: 1rem 2rem !important;
+            text-decoration: none;
+        }
+    }
+    &__square-curved--yellow {
+        &,
+        &:focus,
+        &:hover {
+            background-color: $color-yellow;
+            color: $color-black;
+            padding: 1rem 2rem !important;
+            border: .13rem solid $color-yellow;
+            border-radius: 5rem 5rem 0rem 5rem;
+            text-decoration: none;
+        }
+    }
+    &__transparent {
+        padding: 1rem 2rem !important;
+        background-color: transparent;
+        border: none;
+        outline: none;
+    }
+    // &--red,
+    // &--red:focus,
+    // &--red:hover {
+    //     background-color: $color-red-light;
+    //     color: $color-white;
+    // }
+    // &--search {
+    //     background-color: transparent;
+    //     border: none;
+    //     outline: none;
+    //     position: absolute;
+    //     top: 50%;
+    //     transform: translateY(-50%);
+    //     left: 0.5%;
+    // }
+}
